@@ -1,0 +1,67 @@
+{
+    "RowStruct": "/Script/Icarus.CriticalHitArea",
+    "Defaults": {
+        "EffectiveStat": {
+            "Value": "None"
+        },
+        "EffectiveStatMultiplier": 1,
+        "ModifiersToApply": [],
+        "Priority": 10,
+        "AudioData": {
+            "RowName": "None",
+            "DataTableName": "D_CriticalHitAreaAudioData"
+        }
+    },
+    "GenerateEnum": true,
+    "Rows": [
+        {
+            "Name": "Crit_ExtraWeakPoint",
+            "EffectiveStat": {
+                "Value": "CriticalDamage_+%"
+            },
+            "Priority": 4,
+            "AudioData": {
+                "RowName": "CriticalHit"
+            }
+        },
+        {
+            "Name": "Crit_WeakPoint",
+            "EffectiveStat": {
+                "Value": "CriticalDamage_+%"
+            },
+            "EffectiveStatMultiplier": 0.5,
+            "Priority": 5,
+            "AudioData": {
+                "RowName": "CriticalHit"
+            }
+        },
+        {
+            "Name": "Crit_ExtraStrongPoint",
+            "EffectiveStat": {
+                "Value": "HardenedPointDamage_+%"
+            },
+            "Priority": 7,
+            "AudioData": {
+                "RowName": "LowDamageHit"
+            }
+        },
+        {
+            "Name": "Crit_StrongPoint",
+            "EffectiveStat": {
+                "Value": "HardenedPointDamage_+%"
+            },
+            "EffectiveStatMultiplier": 0.5,
+            "Priority": 8,
+            "AudioData": {
+                "RowName": "LowDamageHit"
+            }
+        },
+        {
+            "Name": "Crit_NoDamage",
+            "Priority": 0,
+            "AudioData": {
+                "RowName": "LowDamageHit"
+            }
+        }
+    ]
+}

@@ -1,0 +1,378 @@
+{
+    "RowStruct": "/Script/Icarus.FishData",
+    "Defaults": {
+        "Fish": {
+            "RowName": "None",
+            "DataTableName": "D_ItemTemplate"
+        },
+        "Image": "None",
+        "Lore": "",
+        "Quote": "",
+        "Rarity": "Common",
+        "Type": "Freshwater",
+        "Maps": [],
+        "Biomes": [],
+        "MinWeight": 100,
+        "MaxWeight": 10000,
+        "MinLength": 10,
+        "MaxLength": 1000,
+        "Lures": [],
+        "CaptureStat": {
+            "Value": "None"
+        }
+    },
+    "GenerateEnum": true,
+    "Rows": [
+        {
+            "Name": "Fish_01",
+            "Fish": {
+                "RowName": "Fish_01"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_01.ITEM_Fish_01",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_01-Lore\", \"These fish have spots as a form of camouflage, which helps them blend in with their surroundings and avoid predators.\")",
+            "Quote": "INVTEXT(\"[DNT] That is one Ugly Fish\")",
+            "Maps": [
+                {
+                    "RowName": "Terrain_016",
+                    "DataTableName": "D_Terrains"
+                },
+                {
+                    "RowName": "Terrain_017",
+                    "DataTableName": "D_Terrains"
+                }
+            ],
+            "Biomes": [
+                {
+                    "Value": "Conifer"
+                },
+                {
+                    "Value": "Pro_GrassyPlains"
+                }
+            ],
+            "Lures": [
+                {
+                    "RowName": "Bone_Lure",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Gold_Ore_Lure",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish01_+%"
+            }
+        },
+        {
+            "Name": "Fish_01_Var2",
+            "Fish": {
+                "RowName": "Fish_01_Var2"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_01_Var2.ITEM_Fish_01_Var2",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish01_+%"
+            }
+        },
+        {
+            "Name": "Fish_01_Var3",
+            "Fish": {
+                "RowName": "Fish_01_Var3"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_01_Var3.ITEM_Fish_01_Var3",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish01_+%"
+            }
+        },
+        {
+            "Name": "Fish_01_Var4",
+            "Fish": {
+                "RowName": "Fish_01_Var4"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_01_Var4.ITEM_Fish_01_Var4",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish01_+%"
+            }
+        },
+        {
+            "Name": "Fish_02",
+            "Fish": {
+                "RowName": "Fish_02"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_02.ITEM_Fish_02",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_02-Lore\", \"The coloration of this fish allows it to hide in the shadows or blend in with the sandy or rocky bottom of its habitat, especially at night.\")",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish02_+%"
+            }
+        },
+        {
+            "Name": "Fish_02_Var2",
+            "Fish": {
+                "RowName": "Fish_02_Var2"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_02_Var2.ITEM_Fish_02_Var2",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish02_+%"
+            }
+        },
+        {
+            "Name": "Fish_02_Var3",
+            "Fish": {
+                "RowName": "Fish_02_Var3"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_02_Var3.ITEM_Fish_02_Var3",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish02_+%"
+            }
+        },
+        {
+            "Name": "Fish_02_Var4",
+            "Fish": {
+                "RowName": "Fish_07_Var4"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_02_Var4.ITEM_Fish_02_Var4",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish02_+%"
+            }
+        },
+        {
+            "Name": "Fish_03",
+            "Fish": {
+                "RowName": "Fish_03"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_03.ITEM_Fish_03",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_03-Lore\", \"The reflective scales of this species can help to confuse predators or attract prey, as the shimmering appearance may be mistaken for the movement of small fish or other prey.\")",
+            "Type": "Saltwater",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish03_+%"
+            }
+        },
+        {
+            "Name": "Fish_03_Var2",
+            "Fish": {
+                "RowName": "Fish_03_Var2"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_03_Var2.ITEM_Fish_03_Var2",
+            "Type": "Saltwater",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish03_+%"
+            }
+        },
+        {
+            "Name": "Fish_03_Var3",
+            "Fish": {
+                "RowName": "Fish_03_Var3"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_03_Var3.ITEM_Fish_03_Var3",
+            "Type": "Saltwater",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish03_+%"
+            }
+        },
+        {
+            "Name": "Fish_03_Var4",
+            "Fish": {
+                "RowName": "Fish_03_Var4"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_03_Var4.ITEM_Fish_03_Var4",
+            "Type": "Saltwater",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish03_+%"
+            }
+        },
+        {
+            "Name": "Fish_04",
+            "Fish": {
+                "RowName": "Fish_04"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_04.ITEM_Fish_04",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_04-Lore\", \"The Coral Ripjaw is a fierce predator that feeds on a variety of prey items, including smaller fish and invertebrates\")",
+            "Type": "Saltwater",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish04_+%"
+            }
+        },
+        {
+            "Name": "Fish_04_Var2",
+            "Fish": {
+                "RowName": "Fish_04_Var2"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_04_Var2.ITEM_Fish_04_Var2",
+            "Type": "Saltwater",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish04_+%"
+            }
+        },
+        {
+            "Name": "Fish_04_Var3",
+            "Fish": {
+                "RowName": "Fish_04_Var3"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_04_Var3.ITEM_Fish_04_Var3",
+            "Type": "Saltwater",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish04_+%"
+            }
+        },
+        {
+            "Name": "Fish_04_Var4",
+            "Fish": {
+                "RowName": "Fish_04_Var4"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_04_Var4.ITEM_Fish_04_Var4",
+            "Type": "Saltwater",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish04_+%"
+            }
+        },
+        {
+            "Name": "Fish_05",
+            "Fish": {
+                "RowName": "Fish_05"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_05.ITEM_Fish_05",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_05-Lore\", \"This fish is adapted for fast swimming and maneuverability in the open ocean with it\\'s streamlined body that allows it to move through the water with minimal resistance.\")",
+            "Rarity": "Uncommon",
+            "Type": "Saltwater",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish05_+%"
+            }
+        },
+        {
+            "Name": "Fish_06",
+            "Fish": {
+                "RowName": "Fish_06"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_06.ITEM_Fish_06",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_06-Lore\", \"The Titan Triggerfish exhibits territorial behavior and courtship displays, which help it to find and attract mates or defend its territory from other fish.\")",
+            "Rarity": "Uncommon",
+            "Type": "Saltwater",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish06_+%"
+            }
+        },
+        {
+            "Name": "Fish_07",
+            "Fish": {
+                "RowName": "Fish_07"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_07.ITEM_Fish_07",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_07-Lore\", \"The shiny scales of this fish help it to blend in with the reflective and shimmering surfaces of its environment.\")",
+            "Rarity": "Uncommon",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish07_+%"
+            }
+        },
+        {
+            "Name": "Fish_08",
+            "Fish": {
+                "RowName": "Fish_08"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_08.ITEM_Fish_08",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_08-Lore\", \"This fish uses it\\'s stripes to signal to other fish in its school or potential mates.\")",
+            "Rarity": "Uncommon",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish08_+%"
+            }
+        },
+        {
+            "Name": "Fish_09",
+            "Fish": {
+                "RowName": "Fish_09"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_09.ITEM_Fish_09",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_09-Lore\", \"This fish has adapted to swim against strong currents and navigate through rocky rapids.\")",
+            "Rarity": "Uncommon",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish09_+%"
+            }
+        },
+        {
+            "Name": "Fish_10",
+            "Fish": {
+                "RowName": "Fish_10"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_10.ITEM_Fish_10",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_10-Lore\", \"A small freshwater fish known for its striking blue coloration and active personality.\")",
+            "Rarity": "Rare",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish10_+%"
+            }
+        },
+        {
+            "Name": "Fish_11",
+            "Fish": {
+                "RowName": "Fish_11"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_11.ITEM_Fish_11",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_11-Lore\", \"This species\\' firm, white flesh and mild flavor make it a favorite among seafood enthusiasts.\")",
+            "Rarity": "Rare",
+            "Type": "Saltwater",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish11_+%"
+            }
+        },
+        {
+            "Name": "Fish_12",
+            "Fish": {
+                "RowName": "Fish_12"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_12.ITEM_Fish_12",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_12-Lore\", \"This fish is known for its vibrant red coloration and elongated body shape.\")",
+            "Rarity": "Uncommon",
+            "Type": "Saltwater",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish12_+%"
+            }
+        },
+        {
+            "Name": "Fish_13",
+            "Fish": {
+                "RowName": "Fish_13"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_13.ITEM_Fish_13",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_13-Lore\", \"Anglers prize this species for its fighting spirit and delicious flesh; though its fine bones can cause issues if eaten.\")",
+            "Rarity": "Rare",
+            "Type": "Saltwater",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish13_+%"
+            }
+        },
+        {
+            "Name": "Fish_14",
+            "Fish": {
+                "RowName": "Fish_14"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_14.ITEM_Fish_14",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_14-Lore\", \"This fish is highly regarded for it\\'s soft and easily cooked flesh, but has been known to cause disturbing hallucinations in a few rare cases.\")",
+            "Rarity": "Rare",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish14_+%"
+            }
+        },
+        {
+            "Name": "Fish_15",
+            "Fish": {
+                "RowName": "Fish_15"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_15.ITEM_Fish_15",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_15-Lore\", \"This elusive fish is only found in the Styx region of Icarus. The UDA advises that any contractors that catch and consume this species do so at their own risk.\")",
+            "Rarity": "Unique",
+            "Type": "Saltwater",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish15_+%"
+            }
+        },
+        {
+            "Name": "Fish_16",
+            "Fish": {
+                "RowName": "Fish_16"
+            },
+            "Image": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fish/ITEM_Fish_16.ITEM_Fish_16",
+            "Lore": "NSLOCTEXT(\"D_FishData\", \"Fish_16-Lore\", \"Found only in the Olympus region of Icarus, scientists are unsure if this fish is a result of exotic mutation or if it is truly native to the planet.\")",
+            "Rarity": "Unique",
+            "CaptureStat": {
+                "Value": "ChanceToCatchFish16_+%"
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "RowStruct": "/Script/Icarus.IcarusAtmosphere",
+    "Defaults": {
+        "AtmosphereName": "None"
+    },
+    "GenerateEnum": true,
+    "Rows": [
+        {
+            "Name": "Cave",
+            "AtmosphereName": "Cave"
+        },
+        {
+            "Name": "Conifer",
+            "AtmosphereName": "Conifer"
+        },
+        {
+            "Name": "Arctic",
+            "AtmosphereName": "Arctic"
+        },
+        {
+            "Name": "Desert",
+            "AtmosphereName": "Desert"
+        },
+        {
+            "Name": "Swamp",
+            "AtmosphereName": "Swamp"
+        },
+        {
+            "Name": "Volcanic",
+            "AtmosphereName": "Volcanic"
+        },
+        {
+            "Name": "Grasslands",
+            "AtmosphereName": "Grasslands"
+        }
+    ]
+}
