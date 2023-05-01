@@ -21,7 +21,7 @@ Adds additional bonus statuses to the Basic Bandage, giving the player super spe
 ### Command to repack
 
 ```powershell
-'"{0}\Pinkys_Speed_Bandage\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Speed_Bandage_autogen.txt; .\DRGPacker4-27\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Speed_Bandage_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Speed_Bandage_autogen.txt"
+'"{0}\Pinkys_Speed_Bandage\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Speed_Bandage_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Speed_Bandage_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Speed_Bandage_autogen.txt"
 ```
 
 ## Pinkys_Fast_Extractor
@@ -39,7 +39,7 @@ Changes the Workshop Extractor speed to make it faster.
 ### Command to repack
 
 ```powershell
-'"{0}\Pinkys_Fast_Extractor\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Fast_Extractor_autogen.txt; .\DRGPacker4-27\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Fast_Extractor_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Fast_Extractor_autogen.txt"
+'"{0}\Pinkys_Fast_Extractor\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Fast_Extractor_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Fast_Extractor_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Fast_Extractor_autogen.txt"
 ```
 
 ## Pinkys_Dropship_Slots_30
@@ -71,7 +71,7 @@ Adds 15 more slots to the Dropship for a total of 30 slots.
 ### Command to repack
 
 ```powershell
-'"{0}\Pinkys_Dropship_Slots_30\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Dropship_Slots_30_autogen.txt; .\DRGPacker4-27\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Dropship_Slots_30_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Dropship_Slots_30_autogen.txt"
+'"{0}\Pinkys_Dropship_Slots_30\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Dropship_Slots_30_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Dropship_Slots_30_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Dropship_Slots_30_autogen.txt"
 ```
 
 ## Pinkys_Healing_Bandage
@@ -89,11 +89,11 @@ Adds a healing effect to the bandages.
 ### Command to repack
 
 ```powershell
-'"{0}\Pinkys_Healing_Bandage\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Healing_Bandage_autogen.txt; .\DRGPacker4-27\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Healing_Bandage_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Healing_Bandage_autogen.txt"
+'"{0}\Pinkys_Healing_Bandage\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Healing_Bandage_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Healing_Bandage_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Healing_Bandage_autogen.txt"
 ```
 
 ## Command to repack all mods
 
 ```powershell
-'"{0}\Pinkys_Speed_Bandage\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Speed_Bandage_autogen.txt; .\DRGPacker4-27\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Speed_Bandage_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Speed_Bandage_autogen.txt"; '"{0}\Pinkys_Fast_Extractor\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Fast_Extractor_autogen.txt; .\DRGPacker4-27\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Fast_Extractor_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Fast_Extractor_autogen.txt"; '"{0}\Pinkys_Dropship_Slots_30\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Dropship_Slots_30_autogen.txt; .\DRGPacker4-27\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Dropship_Slots_30_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Dropship_Slots_30_autogen.txt"; '"{0}\Pinkys_Healing_Bandage\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Healing_Bandage_autogen.txt; .\DRGPacker4-27\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Healing_Bandage_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Healing_Bandage_autogen.txt"
+'"{0}\Pinkys_Speed_Bandage\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Speed_Bandage_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Speed_Bandage_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Speed_Bandage_autogen.txt"; '"{0}\Pinkys_Fast_Extractor\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Fast_Extractor_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Fast_Extractor_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Fast_Extractor_autogen.txt"; '"{0}\Pinkys_Dropship_Slots_30\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Dropship_Slots_30_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Dropship_Slots_30_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Dropship_Slots_30_autogen.txt"; '"{0}\Pinkys_Healing_Bandage\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Healing_Bandage_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Healing_Bandage_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Healing_Bandage_autogen.txt"
 ```

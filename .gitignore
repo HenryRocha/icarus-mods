@@ -1,5 +1,5 @@
 .vscode/
 outputs/
-DRGPacker4-27/UnrealPak/Engine/Programs/UnrealPak/Saved/Logs
-DRGPacker4-27/UnrealPak/Engine/Programs/UnrealPak/Saved/Config/CrashReportClient
+UnrealPak/Engine/Programs/
+UnrealPak/Engine/Saved/
 release/*_autogen.txt
