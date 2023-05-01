@@ -2,3 +2,4 @@
 outputs/
 DRGPacker4-27/UnrealPak/Engine/Programs/UnrealPak/Saved/Logs
 DRGPacker4-27/UnrealPak/Engine/Programs/UnrealPak/Saved/Config/CrashReportClient
+release/*_autogen.txt
