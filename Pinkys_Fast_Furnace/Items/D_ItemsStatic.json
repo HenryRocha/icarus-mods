@@ -5602,6 +5602,9 @@
             "Audio": {
                 "RowName": "StoneDeployable"
             },
+            "AdditionalStats": {
+                "(Value=\"BaseSmeltingSpeed_+%\")": 50
+            },
             "Manual_Tags": {
                 "GameplayTags": [
                     {
@@ -5712,6 +5715,9 @@
             },
             "Audio": {
                 "RowName": "StoneDeployable"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseSmeltingSpeed_+%\")": 75
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -5824,6 +5830,9 @@
             "Audio": {
                 "RowName": "StoneDeployable"
             },
+            "AdditionalStats": {
+                "(Value=\"BaseSmeltingSpeed_+%\")": 75
+            },
             "Manual_Tags": {
                 "GameplayTags": [
                     {
@@ -5932,6 +5941,9 @@
             "Audio": {
                 "RowName": "MetalDeployable"
             },
+            "AdditionalStats": {
+                "(Value=\"BaseSmeltingSpeed_+%\")": 75
+            },
             "Manual_Tags": {
                 "GameplayTags": [
                     {
@@ -6039,6 +6051,9 @@
             },
             "Audio": {
                 "RowName": "MetalDeployable"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseSmeltingSpeed_+%\")": 75
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -53936,7 +53951,7 @@
             },
             "AdditionalStats": {
                 "(Value=\"BaseEnergyTransmutationResourceCost_+%\")": -25,
-                "(Value=\"BaseSmeltingSpeed_+%\")": 50
+                "(Value=\"BaseSmeltingSpeed_+%\")": 75
             },
             "Manual_Tags": {
                 "GameplayTags": [

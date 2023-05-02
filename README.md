@@ -92,7 +92,7 @@ Adds a healing effect to the bandages.
 '"{0}\Pinkys_Healing_Bandage\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Healing_Bandage_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Healing_Bandage_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Healing_Bandage_autogen.txt"
 ```
 
-## Pinkys_Fast_MXC_Furnace
+## Pinkys_Fast_Furnace
 
 **Game version : v1.2.48.110271**
 
@@ -108,11 +108,11 @@ Makes the MXC Furnace 50% faster.
 ### Command to repack
 
 ```powershell
-'"{0}\Pinkys_Fast_MXC_Furnace\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Fast_MXC_Furnace_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Fast_MXC_Furnace_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Fast_MXC_Furnace_autogen.txt"
+'"{0}\Pinkys_Fast_Furnace\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Fast_Furnace_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Fast_Furnace_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Fast_Furnace_autogen.txt"
 ```
 
 ## Command to repack all mods
 
 ```powershell
-'"{0}\Pinkys_Speed_Bandage\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Speed_Bandage_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Speed_Bandage_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Speed_Bandage_autogen.txt"; '"{0}\Pinkys_Fast_Extractor\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Fast_Extractor_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Fast_Extractor_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Fast_Extractor_autogen.txt"; '"{0}\Pinkys_Dropship_Slots_30\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Dropship_Slots_30_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Dropship_Slots_30_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Dropship_Slots_30_autogen.txt"; '"{0}\Pinkys_Healing_Bandage\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Healing_Bandage_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Healing_Bandage_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Healing_Bandage_autogen.txt"; '"{0}\Pinkys_Fast_MXC_Furnace\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Fast_MXC_Furnace_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Fast_MXC_Furnace_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Fast_MXC_Furnace_autogen.txt"
+'"{0}\Pinkys_Speed_Bandage\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Speed_Bandage_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Speed_Bandage_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Speed_Bandage_autogen.txt"; '"{0}\Pinkys_Fast_Extractor\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Fast_Extractor_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Fast_Extractor_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Fast_Extractor_autogen.txt"; '"{0}\Pinkys_Dropship_Slots_30\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Dropship_Slots_30_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Dropship_Slots_30_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Dropship_Slots_30_autogen.txt"; '"{0}\Pinkys_Healing_Bandage\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Healing_Bandage_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Healing_Bandage_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Healing_Bandage_autogen.txt"; '"{0}\Pinkys_Fast_Furnace\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Fast_Furnace_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Fast_Furnace_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Fast_Furnace_autogen.txt"
 ```
