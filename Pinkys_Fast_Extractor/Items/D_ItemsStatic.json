@@ -5288,7 +5288,7 @@
                 "RowName": "MetalDeployable"
             },
             "AdditionalStats": {
-                "(Value=\"BaseExtractorDrillSpeed_+%\")": 33
+                "(Value=\"BaseExtractorDrillSpeed_+%\")": 9999
             },
             "Manual_Tags": {
                 "GameplayTags": [
@@ -63818,6 +63818,9 @@
             "Audio": {
                 "RowName": "MetalDeployable"
             },
+            "AdditionalStats": {
+                "(Value=\"BaseExtractorDrillSpeed_+%\")": 9999
+            },
             "Manual_Tags": {
                 "GameplayTags": [
                     {
@@ -63921,7 +63924,7 @@
                 "RowName": "MetalDeployable"
             },
             "AdditionalStats": {
-                "(Value=\"BaseExtractorDrillSpeed_+%\")": 33
+                "(Value=\"BaseExtractorDrillSpeed_+%\")": 9999
             },
             "Manual_Tags": {
                 "GameplayTags": [
