@@ -96,7 +96,7 @@ Adds a healing effect to the bandages.
 
 **Game version : v1.2.48.110271**
 
-Makes the MXC Furnace 50% faster.
+Makes all furnaces 75% faster.
 
 ```json
 "AdditionalStats": {
