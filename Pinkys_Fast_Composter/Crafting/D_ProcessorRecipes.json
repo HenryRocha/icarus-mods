@@ -7885,6 +7885,7 @@
         },
         {
             "Name": "Biofuel1",
+            "RequiredMillijoules": 625,
             "RecipeSets": [
                 {
                     "RowName": "Composter",
@@ -7922,6 +7923,7 @@
         },
         {
             "Name": "Biofuel5",
+            "RequiredMillijoules": 625,
             "RecipeSets": [
                 {
                     "RowName": "Composter",
@@ -7959,6 +7961,7 @@
         },
         {
             "Name": "Biofuel2",
+            "RequiredMillijoules": 625,
             "RecipeSets": [
                 {
                     "RowName": "Composter",
@@ -7996,6 +7999,7 @@
         },
         {
             "Name": "Biofuel3",
+            "RequiredMillijoules": 625,
             "RecipeSets": [
                 {
                     "RowName": "Composter",
@@ -8033,6 +8037,7 @@
         },
         {
             "Name": "Biofuel4",
+            "RequiredMillijoules": 625,
             "RecipeSets": [
                 {
                     "RowName": "Composter",
