@@ -50922,7 +50922,7 @@
                 "RowName": "Mining_Drill"
             },
             "AdditionalStats": {
-                "(Value=\"BaseDeepMiningDrillSpeed_+%\")": 25
+                "(Value=\"BaseDeepMiningDrillSpeed_+%\")": 99999
             },
             "Generated_Tags": {
                 "GameplayTags": [
@@ -50994,6 +50994,9 @@
             },
             "Decayable": {
                 "RowName": "Decay_MetaItem"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseDeepMiningDrillSpeed_+%\")": 99999
             },
             "Generator": {
                 "RowName": "Deep_Mining_Biofuel_Drill"
