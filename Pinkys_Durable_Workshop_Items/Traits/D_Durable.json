@@ -408,25 +408,6 @@
         },
         {
             "Name": "Meta_Item_Shengong",
-            "Max_Durability": 50000,
-            "ItemsForRepair": [
-                {
-                    "Item": {
-                        "RowName": "Meta_Repair_Item",
-                        "DataTableName": "D_ItemsStatic"
-                    },
-                    "Amount": 1
-                }
-            ],
-            "NoRecipe_RequiredRecipeSet": [
-                {
-                    "RowName": "Repair_Bench",
-                    "DataTableName": "D_RecipeSets"
-                }
-            ]
-        },
-        {
-            "Name": "Meta_Item_Inaris",
             "Max_Durability": 60000,
             "ItemsForRepair": [
                 {
@@ -445,8 +426,27 @@
             ]
         },
         {
+            "Name": "Meta_Item_Inaris",
+            "Max_Durability": 200000,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Meta_Repair_Item",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 1
+                }
+            ],
+            "NoRecipe_RequiredRecipeSet": [
+                {
+                    "RowName": "Repair_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ]
+        },
+        {
             "Name": "Meta_Item_Larkwell",
-            "Max_Durability": 40000,
+            "Max_Durability": 150000,
             "ItemsForRepair": [
                 {
                     "Item": {
@@ -465,7 +465,7 @@
         },
         {
             "Name": "Meta_Item_Printed",
-            "Max_Durability": 30000,
+            "Max_Durability": 40000,
             "ItemsForRepair": [
                 {
                     "Item": {
