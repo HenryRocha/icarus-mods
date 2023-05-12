@@ -147,8 +147,26 @@ Makes all workshop items more durable.
 '"{0}\Pinkys_Durable_Workshop_Items\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Durable_Workshop_Items_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Durable_Workshop_Items_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Durable_Workshop_Items_autogen.txt"
 ```
 
+## Pinkys_Extractor_Slots_30
+
+**Game version : v1.2.48.110271**
+
+Makes all workshop items more durable.
+
+```json
+"AdditionalStats": {
+    "(Value=\"BaseGenericSlots_+\")": 25
+},
+```
+
+### Command to repack
+
+```powershell
+'"{0}\Pinkys_Extractor_Slots_30\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Extractor_Slots_30_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Extractor_Slots_30_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Extractor_Slots_30_autogen.txt"
+```
+
 ## Command to repack all mods
 
 ```powershell
-'"{0}\Pinkys_Speed_Bandage\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Speed_Bandage_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Speed_Bandage_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Speed_Bandage_autogen.txt"; '"{0}\Pinkys_Fast_Extractor\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Fast_Extractor_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Fast_Extractor_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Fast_Extractor_autogen.txt"; '"{0}\Pinkys_Dropship_Slots_30\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Dropship_Slots_30_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Dropship_Slots_30_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Dropship_Slots_30_autogen.txt"; '"{0}\Pinkys_Healing_Bandage\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Healing_Bandage_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Healing_Bandage_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Healing_Bandage_autogen.txt"; '"{0}\Pinkys_Fast_Furnace\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Fast_Furnace_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Fast_Furnace_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Fast_Furnace_autogen.txt"; '"{0}\Pinkys_Fast_Composter\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Fast_Composter_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Fast_Composter_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Fast_Composter_autogen.txt"; '"{0}\Pinkys_Durable_Workshop_Items\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Durable_Workshop_Items_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Durable_Workshop_Items_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Durable_Workshop_Items_autogen.txt"
+'"{0}\Pinkys_Speed_Bandage\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Speed_Bandage_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Speed_Bandage_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Speed_Bandage_autogen.txt"; '"{0}\Pinkys_Fast_Extractor\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Fast_Extractor_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Fast_Extractor_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Fast_Extractor_autogen.txt"; '"{0}\Pinkys_Dropship_Slots_30\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Dropship_Slots_30_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Dropship_Slots_30_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Dropship_Slots_30_autogen.txt"; '"{0}\Pinkys_Healing_Bandage\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Healing_Bandage_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Healing_Bandage_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Healing_Bandage_autogen.txt"; '"{0}\Pinkys_Fast_Furnace\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Fast_Furnace_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Fast_Furnace_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Fast_Furnace_autogen.txt"; '"{0}\Pinkys_Fast_Composter\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Fast_Composter_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Fast_Composter_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Fast_Composter_autogen.txt"; '"{0}\Pinkys_Durable_Workshop_Items\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Durable_Workshop_Items_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Durable_Workshop_Items_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Durable_Workshop_Items_autogen.txt"; '"{0}\Pinkys_Extractor_Slots_30\*.*" "..\..\..\Icarus\Content\*.*"' -f $pwd | Out-File release\Pinkys_Extractor_Slots_30_autogen.txt; .\UnrealPak\Engine\Binaries\Win64\UnrealPak.exe "$pwd\release\Pinkys_Extractor_Slots_30_P.pak" -platform="Windows" -create="$pwd\release\Pinkys_Extractor_Slots_30_autogen.txt"
 ```
